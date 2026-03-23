@@ -1,10 +1,5 @@
 {
   "stats": {
-    "minecraft:dropped": {
-      "minecraft:fishing_rod": 1,
-      "minecraft:slime_ball": 80,
-      "minecraft:emerald": 39
-    },
     "minecraft:mined": {
       "minecraft:oak_leaves": 2,
       "minecraft:dandelion": 1,
@@ -13,25 +8,30 @@
       "minecraft:bamboo": 4
     },
     "minecraft:custom": {
-      "minecraft:time_since_rest": 29467,
-      "minecraft:walk_one_cm": 23272,
-      "minecraft:leave_game": 3,
+      "minecraft:time_since_rest": 30049,
+      "minecraft:walk_one_cm": 23308,
+      "minecraft:leave_game": 4,
       "minecraft:walk_under_water_one_cm": 1303,
-      "minecraft:play_time": 29467,
+      "minecraft:play_time": 30049,
       "minecraft:jump": 145,
-      "minecraft:time_since_death": 29467,
+      "minecraft:time_since_death": 30049,
       "minecraft:drop": 120,
       "minecraft:sprint_one_cm": 24655,
       "minecraft:open_chest": 6,
       "minecraft:inspect_dispenser": 7,
       "minecraft:fall_one_cm": 850,
-      "minecraft:total_world_time": 29467,
+      "minecraft:total_world_time": 30049,
       "minecraft:swim_one_cm": 1558,
-      "minecraft:fly_one_cm": 82827,
+      "minecraft:fly_one_cm": 85183,
       "minecraft:walk_on_water_one_cm": 5736,
       "minecraft:crouch_one_cm": 134,
       "minecraft:sneak_time": 531,
       "minecraft:fish_caught": 1
+    },
+    "minecraft:dropped": {
+      "minecraft:fishing_rod": 1,
+      "minecraft:slime_ball": 80,
+      "minecraft:emerald": 39
     },
     "minecraft:used": {
       "minecraft:stone_axe": 8,
