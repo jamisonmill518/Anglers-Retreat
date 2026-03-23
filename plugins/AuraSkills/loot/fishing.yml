@@ -11,6 +11,7 @@ pools:
       - type: item
         material: cod
         display_name: "<white>Minnow"
+        custom_model_data: 1001
         lore:
           - "<gray>A tiny, wriggling fish."
           - "<dark_gray>⚖ Weight: <white>0.1 - 0.2 lbs"
@@ -20,6 +21,7 @@ pools:
       - type: item
         material: cod
         display_name: "<white>Minnow"
+        custom_model_data: 1001
         lore:
           - "<gray>A tiny, wriggling fish."
           - "<dark_gray>⚖ Weight: <white>0.2 - 0.4 lbs"
@@ -30,6 +32,7 @@ pools:
       - type: item
         material: cod
         display_name: "<white>Sardine"
+        custom_model_data: 1002
         lore:
           - "<gray>A small, silvery fish."
           - "<dark_gray>⚖ Weight: <white>0.1 - 0.3 lbs"
@@ -39,6 +42,7 @@ pools:
       - type: item
         material: cod
         display_name: "<white>Sardine"
+        custom_model_data: 1002
         lore:
           - "<gray>A small, silvery fish."
           - "<dark_gray>⚖ Weight: <white>0.3 - 0.6 lbs"
@@ -54,6 +58,7 @@ pools:
       - type: item
         material: salmon
         display_name: "<green>Bass"
+        custom_model_data: 1003
         lore:
           - "<gray>A solid freshwater fighter."
           - "<dark_gray>⚖ Weight: <white>1 - 3 lbs"
@@ -63,6 +68,7 @@ pools:
       - type: item
         material: salmon
         display_name: "<green>Bass"
+        custom_model_data: 1003
         lore:
           - "<gray>A solid freshwater fighter."
           - "<dark_gray>⚖ Weight: <white>4 - 7 lbs"
@@ -72,6 +78,7 @@ pools:
       - type: item
         material: salmon
         display_name: "<green>Bass"
+        custom_model_data: 1003
         lore:
           - "<gray>A solid freshwater fighter."
           - "<dark_gray>⚖ Weight: <white>8 - 12 lbs"
@@ -87,6 +94,7 @@ pools:
       - type: item
         material: tropical_fish
         display_name: "<aqua>Tuna"
+        custom_model_data: 1006
         lore:
           - "<gray>A powerful ocean fish."
           - "<dark_gray>⚖ Weight: <white>20 - 50 lbs"
@@ -96,6 +104,7 @@ pools:
       - type: item
         material: tropical_fish
         display_name: "<aqua>Tuna"
+        custom_model_data: 1006
         lore:
           - "<gray>A powerful ocean fish."
           - "<dark_gray>⚖ Weight: <white>51 - 100 lbs"
@@ -105,6 +114,7 @@ pools:
       - type: item
         material: tropical_fish
         display_name: "<aqua>Tuna"
+        custom_model_data: 1006
         lore:
           - "<gray>A powerful ocean fish."
           - "<dark_gray>⚖ Weight: <white>101 - 150 lbs"
@@ -115,6 +125,7 @@ pools:
       - type: item
         material: salmon
         display_name: "<aqua>Lake Trout"
+        custom_model_data: 1004
         lore:
           - "<gray>A swift lake fish, tricky to land."
           - "<dark_gray>⚖ Weight: <white>2 - 5 lbs"
@@ -124,6 +135,7 @@ pools:
       - type: item
         material: salmon
         display_name: "<aqua>Lake Trout"
+        custom_model_data: 1004
         lore:
           - "<gray>A swift lake fish, tricky to land."
           - "<dark_gray>⚖ Weight: <white>6 - 12 lbs"
@@ -133,6 +145,7 @@ pools:
       - type: item
         material: salmon
         display_name: "<aqua>Lake Trout"
+        custom_model_data: 1004
         lore:
           - "<gray>A swift lake fish, tricky to land."
           - "<dark_gray>⚖ Weight: <white>13 - 20 lbs"
@@ -148,6 +161,7 @@ pools:
       - type: item
         material: pufferfish
         display_name: "<light_purple>Swordfish"
+        custom_model_data: 1008
         lore:
           - "<gray>An aggressive predator of the deep."
           - "<dark_gray>⚖ Weight: <white>50 - 100 lbs"
@@ -157,6 +171,7 @@ pools:
       - type: item
         material: pufferfish
         display_name: "<light_purple>Swordfish"
+        custom_model_data: 1008
         lore:
           - "<gray>An aggressive predator of the deep."
           - "<dark_gray>⚖ Weight: <white>101 - 200 lbs"
@@ -166,6 +181,7 @@ pools:
       - type: item
         material: pufferfish
         display_name: "<light_purple>Swordfish"
+        custom_model_data: 1008
         lore:
           - "<gray>An aggressive predator of the deep."
           - "<dark_gray>⚖ Weight: <white>201 - 400 lbs"
@@ -176,6 +192,7 @@ pools:
       - type: item
         material: salmon
         display_name: "<light_purple>Atlantic Salmon"
+        custom_model_data: 1005
         lore:
           - "<gray>A prized catch from cold, deep waters."
           - "<dark_gray>⚖ Weight: <white>8 - 15 lbs"
@@ -185,6 +202,7 @@ pools:
       - type: item
         material: salmon
         display_name: "<light_purple>Atlantic Salmon"
+        custom_model_data: 1005
         lore:
           - "<gray>A prized catch from cold, deep waters."
           - "<dark_gray>⚖ Weight: <white>16 - 25 lbs"
@@ -194,10 +212,50 @@ pools:
       - type: item
         material: salmon
         display_name: "<light_purple>Atlantic Salmon"
+        custom_model_data: 1005
         lore:
           - "<gray>A prized catch from cold, deep waters."
           - "<dark_gray>⚖ Weight: <white>26 - 40 lbs"
           - "<gray>Rarity: <light_purple>Epic"
+        weight: 10
+        amount: 1
+
+  legendary_fish:
+    base_chance: 0.2
+    selection_priority: 4
+    loot:
+      # --- Golden Koi ---
+      - type: item
+        material: tropical_fish
+        display_name: "<gold><bold>Golden Koi"
+        custom_model_data: 1007
+        lore:
+          - "<gray>An ancient and mystical fish."
+          - "<gray>Said to bring great fortune."
+          - "<dark_gray>⚖ Weight: <white>15 - 25 lbs"
+          - "<gray>Rarity: <gold>Legendary"
+        weight: 50
+        amount: 1
+      - type: item
+        material: tropical_fish
+        display_name: "<gold><bold>Golden Koi"
+        custom_model_data: 1007
+        lore:
+          - "<gray>An ancient and mystical fish."
+          - "<gray>Said to bring great fortune."
+          - "<dark_gray>⚖ Weight: <white>26 - 35 lbs"
+          - "<gray>Rarity: <gold>Legendary"
+        weight: 30
+        amount: 1
+      - type: item
+        material: tropical_fish
+        display_name: "<gold><bold>Golden Koi"
+        custom_model_data: 1007
+        lore:
+          - "<gray>An ancient and mystical fish."
+          - "<gray>Said to bring great fortune."
+          - "<dark_gray>⚖ Weight: <white>36 - 50 lbs"
+          - "<gray>Rarity: <gold>Legendary"
         weight: 10
         amount: 1
 
@@ -209,6 +267,7 @@ pools:
       - type: item
         material: pufferfish
         display_name: "<red>Sturgeon"
+        custom_model_data: 1009
         lore:
           - "<gray>A prehistoric giant, rarely seen."
           - "<dark_gray>⚖ Weight: <white>10 - 30 lbs"
@@ -219,6 +278,7 @@ pools:
       - type: item
         material: pufferfish
         display_name: "<red>Sturgeon"
+        custom_model_data: 1009
         lore:
           - "<gray>A prehistoric giant, rarely seen."
           - "<dark_gray>⚖ Weight: <white>31 - 55 lbs"
@@ -229,48 +289,13 @@ pools:
       - type: item
         material: pufferfish
         display_name: "<red>Sturgeon"
+        custom_model_data: 1009
         lore:
           - "<gray>A prehistoric giant, rarely seen."
           - "<dark_gray>⚖ Weight: <white>56 - 80 lbs"
           - "<red>⚠ Endangered Species"
           - "<gray>Rarity: <red>Endangered"
         weight: 15
-        amount: 1
-
-  legendary_fish:
-    base_chance: 0.2
-    selection_priority: 4
-    loot:
-      # --- Golden Koi ---
-      - type: item
-        material: tropical_fish
-        display_name: "<gold><bold>Golden Koi"
-        lore:
-          - "<gray>An ancient and mystical fish."
-          - "<gray>Said to bring great fortune."
-          - "<dark_gray>⚖ Weight: <white>15 - 25 lbs"
-          - "<gray>Rarity: <gold>Legendary"
-        weight: 50
-        amount: 1
-      - type: item
-        material: tropical_fish
-        display_name: "<gold><bold>Golden Koi"
-        lore:
-          - "<gray>An ancient and mystical fish."
-          - "<gray>Said to bring great fortune."
-          - "<dark_gray>⚖ Weight: <white>26 - 35 lbs"
-          - "<gray>Rarity: <gold>Legendary"
-        weight: 30
-        amount: 1
-      - type: item
-        material: tropical_fish
-        display_name: "<gold><bold>Golden Koi"
-        lore:
-          - "<gray>An ancient and mystical fish."
-          - "<gray>Said to bring great fortune."
-          - "<dark_gray>⚖ Weight: <white>36 - 50 lbs"
-          - "<gray>Rarity: <gold>Legendary"
-        weight: 10
         amount: 1
 
   # -----------------------------------------------
