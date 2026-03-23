@@ -1,0 +1,40 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "entries": [
+      {
+        "threshold": 1006,
+        "model": {
+          "type": "minecraft:model",
+          "model": "anglers_retreat:item/tuna"
+        }
+      },
+      {
+        "threshold": 1007,
+        "model": {
+          "type": "minecraft:model",
+          "model": "anglers_retreat:item/golden_koi"
+        }
+      },
+      {
+        "threshold": 1008,
+        "model": {
+          "type": "minecraft:model",
+          "model": "anglers_retreat:item/swordfish"
+        }
+      },
+      {
+        "threshold": 1009,
+        "model": {
+          "type": "minecraft:model",
+          "model": "anglers_retreat:item/sturgeon"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/tropical_fish"
+    }
+  }
+}
