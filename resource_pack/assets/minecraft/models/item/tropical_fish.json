@@ -1,0 +1,10 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/tropical_fish"
+  },
+  "overrides": [
+    {"predicate": {"custom_model_data": 1006}, "model": "anglers_retreat:item/tuna"},
+    {"predicate": {"custom_model_data": 1007}, "model": "anglers_retreat:item/golden_koi"}
+  ]
+}

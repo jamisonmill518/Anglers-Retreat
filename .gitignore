@@ -1,0 +1,46 @@
+# Server runtime files
+logs/
+cache/
+libraries/
+versions/
+.console_history
+session.lock
+usercache.json
+banned-ips.json
+banned-players.json
+
+# World data (large binary files)
+world/
+world_nether/
+world_the_end/
+
+# Player data (private)
+plugins/Essentials/userdata/
+plugins/Essentials/usermap.bin
+plugins/Essentials/uuids.bin
+plugins/AuraSkills/userdata/
+plugins/Multiverse-Inventories/players/
+plugins/Multiverse-Inventories/playernames.json
+
+# Claude Code settings
+.claude/
+
+# Paper remapping cache (auto-generated)
+plugins/.paper-remapped/
+
+# Sensitive config - track template only, not live values
+server.properties
+
+# Spark profiler temp files
+plugins/spark/tmp/
+
+# Auto-downloaded plugin libraries and translations
+plugins/Citizens/lib/
+plugins/LuckPerms/libs/
+plugins/LuckPerms/translations/
+
+# Plugin databases (runtime data)
+plugins/**/*.db
+plugins/**/*.mv.db
+plugins/**/transaction-log.txt
+plugins/**/transactions/

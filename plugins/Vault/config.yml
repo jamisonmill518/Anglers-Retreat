@@ -1,0 +1,130 @@
+# Vault 2.0 — internal economy compatible with the Vault API
+# Provides balance, player-to-player payments, and config/message reload.
+# Commands: /balance, /pay, /vault reload. No external Vault.jar required.
+plugin_version: 1.5.4
+# languages_supported: ["en", "es", "fr", "de", "nl", "zh_TW", "ru", "pt", "hi"]
+language: en
+# Vault 2.0 — internal economy compatible with the Vault API
+# Commands: /balance, /vault reload.
+storage:
+  # MySQL storage (set use_mysql: true to enable)
+  use_mysql: false
+  mysql:
+    host: localhost
+    port: 3306
+    database: vault
+    username: root
+    password: ''
+    pool_size: 10
+# params: "useSSL=false&serverTimezone=UTC"
+# pool:
+#   max: 10
+#   min_idle: 2
+#   connection_timeout_ms: 10000
+#   idle_timeout_ms: 600000
+#   max_lifetime_ms: 1800000
+
+import:
+  essentials:
+    enabled: false
+    replace: false # true = overwrite existing balances; false = only create when missing
+# target: file  # Optional: "file" forces saving to balances.yml even if MySQL is enabled
+
+# UUID resolution for offline-mode servers
+# true: allow operations with unseen players by generating offline UUIDs
+offline-uuid-fallback: true
+
+# Check for updates on startup and notify OPs
+update_check: true
+update_check_debug: false
+
+# /pay menu configuration
+pay_menu:
+  # Inventory size (multiple of 9)
+  size: 27
+  # Show your own head among players in the main menu
+  show_self: false
+
+# Delivery of pending charge requests on join
+pay_pending:
+  # Maximum requests delivered per login (remaining stay queued)
+  max_on_join: 5
+
+# Amount limits for pay/charge (≤0 disables)
+pay_limits:
+  min: 1.0
+  max: 100000.0
+
+# Documentation (not used by code)
+docs:
+  commands:
+    pay:
+      usage: /pay <player> <amount> | /pay | /pay <player>
+      description: Send money, charge (request payment), and open the menu/player
+        submenu.
+      actions:
+      - Pay
+      - Charge (request payment)
+      - View target balance
+    balance:
+      usage: /balance
+      description: Show your current balance.
+    vault:
+      usage: /vault reload
+      description: Reload configuration and messages (OP only).
+    eco:
+      usage: /eco give <player> <amount> | /eco take <player> <amount>
+      description: Give or take money from a player (admin only).
+      permission_required: op
+      notes: 'Supports subcommands: give and take. Example: /eco take <player> <amount>'
+      permissions:
+        vault:
+          eco:
+            default: op
+            description: Allows using /eco including give and take subcommands.
+  guides:
+    pay:
+      summary: Select Pay in /pay (or player submenu) and type an amount.
+      online_flow: Money is transferred instantly to the online target.
+      offline_flow: Direct pay to offline targets is not available; use Charge.
+      chat_commands:
+        cancel: Type 'cancel' to abort while entering the amount.
+      limits:
+        description: The configured pay_limits apply; bypass nodes can ignore them.
+    charge:
+      summary: Select Charge in /pay (or player submenu) and type an amount.
+      online_flow: The target receives a clickable message to pay.
+      offline_flow: The request is stored and delivered when the player joins.
+      chat_commands:
+        cancel: Type 'cancel' to abort while entering the amount.
+      limits:
+        description: The configured pay_limits apply; 'vault.pay.bypass_limits' can
+          ignore them in chat flow.
+    menu:
+      overview: Open /pay to list players. Click a player to open the submenu.
+      actions:
+      - Pay
+      - Charge
+      - View balance
+      navigation: Use Previous/Next to move between pages.
+      titles_and_labels: Menu titles and item names are defined in messages/messages_en.yml
+        and messages/messages_es.yml.
+      
+      config_keys: Uses pay_menu.size and pay_menu.show_self from config.
+    eco:
+      summary: Use /eco to give or take money from a player.
+      online_flow: Balance is updated instantly for online targets.
+      offline_flow: Works for offline players; accounts are created automatically
+        if needed.
+      chat_commands:
+        cancel: Not applicable; /eco uses direct command arguments.
+      limits:
+        description: Pay limits do not apply; operator-only administration command.
+
+# permissions:
+#   vault.pay      # use /pay and open the payment menu (default: op)
+#   vault.eco      # give and take money (default: op)
+#   vault.balance  # use /balance (default: op)
+
+
+

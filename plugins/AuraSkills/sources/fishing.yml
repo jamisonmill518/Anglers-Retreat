@@ -1,0 +1,92 @@
+default:
+  type: fishing
+  menu_item:
+    material: '{item.material}'
+sources:
+  # -----------------------------------------------
+  # Vanilla Fish (baseline XP)
+  # -----------------------------------------------
+  cod:
+    item:
+      material: cod
+    xp: 10
+  salmon:
+    item:
+      material: salmon
+    xp: 20
+  tropical_fish:
+    item:
+      material: tropical_fish
+    xp: 30
+  pufferfish:
+    item:
+      material: pufferfish
+    xp: 25
+  treasure:
+    item:
+      category: fishing_treasure
+    xp: 500
+    menu_item:
+      material: name_tag
+  junk:
+    item:
+      category: fishing_junk
+    xp: 5
+    menu_item:
+      material: stick
+
+  # -----------------------------------------------
+  # Custom Fish Tiers
+  # -----------------------------------------------
+  common_fish:
+    item:
+      loot_pool: common_fish
+    xp: 20
+    menu_item:
+      material: cod
+  uncommon_fish:
+    item:
+      loot_pool: uncommon_fish
+    xp: 150
+    menu_item:
+      material: salmon
+  rare_fish:
+    item:
+      loot_pool: rare_fish
+    xp: 800
+    menu_item:
+      material: tropical_fish
+  epic_fish:
+    item:
+      loot_pool: epic_fish
+    xp: 3000
+    menu_item:
+      material: pufferfish
+  legendary_fish:
+    item:
+      loot_pool: legendary_fish
+    xp: 10000
+    menu_item:
+      material: gold_nugget
+  endangered_fish:
+    item:
+      loot_pool: endangered_fish
+    xp: 25000
+    menu_item:
+      material: red_dye
+
+  # -----------------------------------------------
+  # Material Reward Pools
+  # -----------------------------------------------
+  rare:
+    item:
+      loot_pool: rare
+    xp: 2000
+    menu_item:
+      material: orange_dye
+  epic:
+    item:
+      loot_pool: epic
+    xp: 5000
+    menu_item:
+      material: purple_dye
