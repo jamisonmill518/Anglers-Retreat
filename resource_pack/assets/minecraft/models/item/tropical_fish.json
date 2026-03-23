@@ -5,6 +5,8 @@
   },
   "overrides": [
     {"predicate": {"custom_model_data": 1006}, "model": "anglers_retreat:item/tuna"},
-    {"predicate": {"custom_model_data": 1007}, "model": "anglers_retreat:item/golden_koi"}
+    {"predicate": {"custom_model_data": 1007}, "model": "anglers_retreat:item/golden_koi"},
+    {"predicate": {"custom_model_data": 1008}, "model": "anglers_retreat:item/swordfish"},
+    {"predicate": {"custom_model_data": 1009}, "model": "anglers_retreat:item/sturgeon"}
   ]
 }

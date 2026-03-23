@@ -159,7 +159,7 @@ pools:
     loot:
       # --- Swordfish ---
       - type: item
-        material: pufferfish
+        material: tropical_fish
         display_name: "<light_purple>Swordfish"
         custom_model_data: 1008
         lore:
@@ -169,7 +169,7 @@ pools:
         weight: 50
         amount: 1
       - type: item
-        material: pufferfish
+        material: tropical_fish
         display_name: "<light_purple>Swordfish"
         custom_model_data: 1008
         lore:
@@ -179,7 +179,7 @@ pools:
         weight: 30
         amount: 1
       - type: item
-        material: pufferfish
+        material: tropical_fish
         display_name: "<light_purple>Swordfish"
         custom_model_data: 1008
         lore:
@@ -265,7 +265,7 @@ pools:
     loot:
       # --- Sturgeon ---
       - type: item
-        material: pufferfish
+        material: tropical_fish
         display_name: "<red>Sturgeon"
         custom_model_data: 1009
         lore:
@@ -276,7 +276,7 @@ pools:
         weight: 50
         amount: 1
       - type: item
-        material: pufferfish
+        material: tropical_fish
         display_name: "<red>Sturgeon"
         custom_model_data: 1009
         lore:
@@ -287,7 +287,7 @@ pools:
         weight: 30
         amount: 1
       - type: item
-        material: pufferfish
+        material: tropical_fish
         display_name: "<red>Sturgeon"
         custom_model_data: 1009
         lore:
