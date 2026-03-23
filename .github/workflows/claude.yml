@@ -1,0 +1,22 @@
+name: Claude Coder
+
+on:
+  issues:
+    types: [opened, edited]
+  pull_request:
+    types: [opened, edited, synchronize]
+  issue_comment:
+    types: [created]
+
+jobs:
+  claude:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install Claude Code
+        uses: pleaseai/setup-claude-code@v1.1.4
+
+      - name: ClaudeCoderAction
+        uses: EndemicMedia/claudecoder@v2.1.0
+        with:
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}

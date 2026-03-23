@@ -27,3 +27,14 @@ server.properties
 
 # Spark profiler temp files
 plugins/spark/tmp/
+
+# Auto-downloaded plugin libraries and translations
+plugins/Citizens/lib/
+plugins/LuckPerms/libs/
+plugins/LuckPerms/translations/
+
+# Plugin databases (runtime data)
+plugins/**/*.db
+plugins/**/*.mv.db
+plugins/**/transaction-log.txt
+plugins/**/transactions/
