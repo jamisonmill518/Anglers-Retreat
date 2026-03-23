@@ -18,6 +18,12 @@ world_the_end/
 plugins/Essentials/userdata/
 plugins/Essentials/usermap.bin
 plugins/Essentials/uuids.bin
+plugins/AuraSkills/userdata/
+plugins/Multiverse-Inventories/players/
+plugins/Multiverse-Inventories/playernames.json
+
+# Claude Code settings
+.claude/
 
 # Paper remapping cache (auto-generated)
 plugins/.paper-remapped/
