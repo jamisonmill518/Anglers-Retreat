@@ -1036,7 +1036,7 @@ traits:
 ui:
   maxed: MAXED
 units:
-  mana: Mana
+  mana: Energy
   hp: HP
   xp: XP
 file_version: 39
