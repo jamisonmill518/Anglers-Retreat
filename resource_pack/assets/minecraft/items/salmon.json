@@ -1,33 +1,6 @@
 {
   "model": {
-    "type": "minecraft:range_dispatch",
-    "property": "minecraft:custom_model_data",
-    "entries": [
-      {
-        "threshold": 1003,
-        "model": {
-          "type": "minecraft:model",
-          "model": "anglers_retreat:item/bass"
-        }
-      },
-      {
-        "threshold": 1004,
-        "model": {
-          "type": "minecraft:model",
-          "model": "anglers_retreat:item/lake_trout"
-        }
-      },
-      {
-        "threshold": 1005,
-        "model": {
-          "type": "minecraft:model",
-          "model": "anglers_retreat:item/atlantic_salmon"
-        }
-      }
-    ],
-    "fallback": {
-      "type": "minecraft:model",
-      "model": "minecraft:item/salmon"
-    }
+    "type": "minecraft:model",
+    "model": "anglers_retreat:item/bass"
   }
 }
