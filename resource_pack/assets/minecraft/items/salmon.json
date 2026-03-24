@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "anglers_retreat:item/bass"
+    "model": "minecraft:item/cod"
   }
 }
