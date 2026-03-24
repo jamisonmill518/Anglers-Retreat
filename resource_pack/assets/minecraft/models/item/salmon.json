@@ -1,11 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "minecraft:item/salmon"
-  },
-  "overrides": [
-    {"predicate": {"custom_model_data": 1003}, "model": "anglers_retreat:item/bass"},
-    {"predicate": {"custom_model_data": 1004}, "model": "anglers_retreat:item/lake_trout"},
-    {"predicate": {"custom_model_data": 1005}, "model": "anglers_retreat:item/atlantic_salmon"}
-  ]
+    "layer0": "minecraft:item/cod"
+  }
 }
