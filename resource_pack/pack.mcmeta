@@ -1,10 +1,6 @@
 {
   "pack": {
-    "pack_format": 100,
-    "supported_formats": {
-      "min_format": 34,
-      "max_format": 200
-    },
+    "pack_format": 46,
     "description": "Anglers Retreat - Custom Fish Textures"
   }
 }

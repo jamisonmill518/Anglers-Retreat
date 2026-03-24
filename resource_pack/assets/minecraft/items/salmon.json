@@ -1,6 +1,19 @@
 {
   "model": {
-    "type": "minecraft:model",
-    "model": "minecraft:item/cod"
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "entries": [
+      {
+        "threshold": 1005,
+        "model": {
+          "type": "minecraft:model",
+          "model": "anglers_retreat:item/atlantic_salmon"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/salmon"
+    }
   }
 }
