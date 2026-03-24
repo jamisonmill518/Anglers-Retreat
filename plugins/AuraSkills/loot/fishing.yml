@@ -1,22 +1,18 @@
 type: fishing
 pools:
-  # -----------------------------------------------
-  # Custom Fish Tiers
-  # -----------------------------------------------
   common_fish:
     base_chance: 35
     selection_priority: 0
     loot:
-      # --- Minnow ---
       - type: item
         material: cod
         display_name: "<white>Minnow"
         custom_model_data: 1001
         lore:
           - "<gray>A tiny, wriggling fish."
-          - "<dark_gray>⚖ Weight: <white>0.1 - 0.2 lbs"
+          - "<dark_gray>Weight: <white>0.05 lbs"
           - "<gray>Rarity: <white>Common"
-        weight: 35
+        weight: 10
         amount: 1
       - type: item
         material: cod
@@ -24,20 +20,49 @@ pools:
         custom_model_data: 1001
         lore:
           - "<gray>A tiny, wriggling fish."
-          - "<dark_gray>⚖ Weight: <white>0.2 - 0.4 lbs"
+          - "<dark_gray>Weight: <white>0.1 lbs"
+          - "<gray>Rarity: <white>Common"
+        weight: 20
+        amount: 1
+      - type: item
+        material: cod
+        display_name: "<white>Minnow"
+        custom_model_data: 1001
+        lore:
+          - "<gray>A tiny, wriggling fish."
+          - "<dark_gray>Weight: <white>0.2 lbs"
+          - "<gray>Rarity: <white>Common"
+        weight: 20
+        amount: 1
+      - type: item
+        material: cod
+        display_name: "<white>Minnow"
+        custom_model_data: 1001
+        lore:
+          - "<gray>A tiny, wriggling fish."
+          - "<dark_gray>Weight: <white>0.3 lbs"
           - "<gray>Rarity: <white>Common"
         weight: 10
         amount: 1
-      # --- Sardine ---
+      - type: item
+        material: cod
+        display_name: "<white>Minnow"
+        custom_model_data: 1001
+        lore:
+          - "<gray>A tiny, wriggling fish."
+          - "<dark_gray>Weight: <white>0.4 lbs"
+          - "<gray>Rarity: <white>Common"
+        weight: 5
+        amount: 1
       - type: item
         material: cod
         display_name: "<white>Sardine"
         custom_model_data: 1002
         lore:
           - "<gray>A small, silvery fish."
-          - "<dark_gray>⚖ Weight: <white>0.1 - 0.3 lbs"
+          - "<dark_gray>Weight: <white>0.1 lbs"
           - "<gray>Rarity: <white>Common"
-        weight: 35
+        weight: 20
         amount: 1
       - type: item
         material: cod
@@ -45,61 +70,119 @@ pools:
         custom_model_data: 1002
         lore:
           - "<gray>A small, silvery fish."
-          - "<dark_gray>⚖ Weight: <white>0.3 - 0.6 lbs"
+          - "<dark_gray>Weight: <white>0.2 lbs"
           - "<gray>Rarity: <white>Common"
-        weight: 10
+        weight: 20
+        amount: 1
+      - type: item
+        material: cod
+        display_name: "<white>Sardine"
+        custom_model_data: 1002
+        lore:
+          - "<gray>A small, silvery fish."
+          - "<dark_gray>Weight: <white>0.3 lbs"
+          - "<gray>Rarity: <white>Common"
+        weight: 15
+        amount: 1
+      - type: item
+        material: cod
+        display_name: "<white>Sardine"
+        custom_model_data: 1002
+        lore:
+          - "<gray>A small, silvery fish."
+          - "<dark_gray>Weight: <white>0.5 lbs"
+          - "<gray>Rarity: <white>Common"
+        weight: 8
+        amount: 1
+      - type: item
+        material: cod
+        display_name: "<white>Sardine"
+        custom_model_data: 1002
+        lore:
+          - "<gray>A small, silvery fish."
+          - "<dark_gray>Weight: <white>0.6 lbs"
+          - "<gray>Rarity: <white>Common"
+        weight: 3
         amount: 1
 
   uncommon_fish:
     base_chance: 15
     selection_priority: 1
     loot:
-      # --- Bass ---
       - type: item
-        material: salmon
+        material: cod
         display_name: "<green>Bass"
         custom_model_data: 1003
         lore:
           - "<gray>A solid freshwater fighter."
-          - "<dark_gray>⚖ Weight: <white>1 - 3 lbs"
+          - "<dark_gray>Weight: <white>1.2 lbs"
           - "<gray>Rarity: <green>Uncommon"
-        weight: 50
+        weight: 40
         amount: 1
       - type: item
-        material: salmon
+        material: cod
         display_name: "<green>Bass"
         custom_model_data: 1003
         lore:
           - "<gray>A solid freshwater fighter."
-          - "<dark_gray>⚖ Weight: <white>4 - 7 lbs"
+          - "<dark_gray>Weight: <white>2.5 lbs"
           - "<gray>Rarity: <green>Uncommon"
         weight: 30
         amount: 1
       - type: item
-        material: salmon
+        material: cod
         display_name: "<green>Bass"
         custom_model_data: 1003
         lore:
           - "<gray>A solid freshwater fighter."
-          - "<dark_gray>⚖ Weight: <white>8 - 12 lbs"
+          - "<dark_gray>Weight: <white>4.0 lbs"
           - "<gray>Rarity: <green>Uncommon"
-        weight: 10
+        weight: 20
+        amount: 1
+      - type: item
+        material: cod
+        display_name: "<green>Bass"
+        custom_model_data: 1003
+        lore:
+          - "<gray>A solid freshwater fighter."
+          - "<dark_gray>Weight: <white>6.8 lbs"
+          - "<gray>Rarity: <green>Uncommon"
+        weight: 12
+        amount: 1
+      - type: item
+        material: cod
+        display_name: "<green>Bass"
+        custom_model_data: 1003
+        lore:
+          - "<gray>A solid freshwater fighter."
+          - "<dark_gray>Weight: <white>9.2 lbs"
+          - "<gray>Rarity: <green>Uncommon"
+        weight: 5
+        amount: 1
+      - type: item
+        material: cod
+        display_name: "<green>Bass"
+        custom_model_data: 1003
+        lore:
+          - "<gray>A solid freshwater fighter."
+          - "<dark_gray>Weight: <white>11.5 lbs"
+          - "<gray>Rarity: <green>Uncommon"
+        weight: 2
         amount: 1
 
   rare_fish:
     base_chance: 5
     selection_priority: 2
     loot:
-      # --- Tuna ---
       - type: item
         material: tropical_fish
         display_name: "<aqua>Tuna"
         custom_model_data: 1006
         lore:
           - "<gray>A powerful ocean fish."
-          - "<dark_gray>⚖ Weight: <white>20 - 50 lbs"
+          - "<dark_gray>Weight: <white>22 lbs"
           - "<gray>Rarity: <aqua>Rare"
-        weight: 50
+        weight: 40
         amount: 1
       - type: item
         material: tropical_fish
@@ -107,7 +190,7 @@ pools:
         custom_model_data: 1006
         lore:
           - "<gray>A powerful ocean fish."
-          - "<dark_gray>⚖ Weight: <white>51 - 100 lbs"
+          - "<dark_gray>Weight: <white>38 lbs"
           - "<gray>Rarity: <aqua>Rare"
         weight: 30
         amount: 1
@@ -117,56 +200,114 @@ pools:
         custom_model_data: 1006
         lore:
           - "<gray>A powerful ocean fish."
-          - "<dark_gray>⚖ Weight: <white>101 - 150 lbs"
+          - "<dark_gray>Weight: <white>57 lbs"
+          - "<gray>Rarity: <aqua>Rare"
+        weight: 20
+        amount: 1
+      - type: item
+        material: tropical_fish
+        display_name: "<aqua>Tuna"
+        custom_model_data: 1006
+        lore:
+          - "<gray>A powerful ocean fish."
+          - "<dark_gray>Weight: <white>85 lbs"
           - "<gray>Rarity: <aqua>Rare"
         weight: 10
         amount: 1
-      # --- Lake Trout ---
       - type: item
-        material: salmon
-        display_name: "<aqua>Lake Trout"
-        custom_model_data: 1004
+        material: tropical_fish
+        display_name: "<aqua>Tuna"
+        custom_model_data: 1006
         lore:
-          - "<gray>A swift lake fish, tricky to land."
-          - "<dark_gray>⚖ Weight: <white>2 - 5 lbs"
+          - "<gray>A powerful ocean fish."
+          - "<dark_gray>Weight: <white>118 lbs"
           - "<gray>Rarity: <aqua>Rare"
-        weight: 50
+        weight: 5
         amount: 1
       - type: item
-        material: salmon
+        material: tropical_fish
+        display_name: "<aqua>Tuna"
+        custom_model_data: 1006
+        lore:
+          - "<gray>A powerful ocean fish."
+          - "<dark_gray>Weight: <white>147 lbs"
+          - "<gray>Rarity: <aqua>Rare"
+        weight: 2
+        amount: 1
+      - type: item
+        material: cod
         display_name: "<aqua>Lake Trout"
         custom_model_data: 1004
         lore:
           - "<gray>A swift lake fish, tricky to land."
-          - "<dark_gray>⚖ Weight: <white>6 - 12 lbs"
+          - "<dark_gray>Weight: <white>2.4 lbs"
+          - "<gray>Rarity: <aqua>Rare"
+        weight: 40
+        amount: 1
+      - type: item
+        material: cod
+        display_name: "<aqua>Lake Trout"
+        custom_model_data: 1004
+        lore:
+          - "<gray>A swift lake fish, tricky to land."
+          - "<dark_gray>Weight: <white>4.8 lbs"
           - "<gray>Rarity: <aqua>Rare"
         weight: 30
         amount: 1
       - type: item
-        material: salmon
+        material: cod
         display_name: "<aqua>Lake Trout"
         custom_model_data: 1004
         lore:
           - "<gray>A swift lake fish, tricky to land."
-          - "<dark_gray>⚖ Weight: <white>13 - 20 lbs"
+          - "<dark_gray>Weight: <white>7.3 lbs"
+          - "<gray>Rarity: <aqua>Rare"
+        weight: 20
+        amount: 1
+      - type: item
+        material: cod
+        display_name: "<aqua>Lake Trout"
+        custom_model_data: 1004
+        lore:
+          - "<gray>A swift lake fish, tricky to land."
+          - "<dark_gray>Weight: <white>11.0 lbs"
           - "<gray>Rarity: <aqua>Rare"
         weight: 10
+        amount: 1
+      - type: item
+        material: cod
+        display_name: "<aqua>Lake Trout"
+        custom_model_data: 1004
+        lore:
+          - "<gray>A swift lake fish, tricky to land."
+          - "<dark_gray>Weight: <white>16.5 lbs"
+          - "<gray>Rarity: <aqua>Rare"
+        weight: 5
+        amount: 1
+      - type: item
+        material: cod
+        display_name: "<aqua>Lake Trout"
+        custom_model_data: 1004
+        lore:
+          - "<gray>A swift lake fish, tricky to land."
+          - "<dark_gray>Weight: <white>19.8 lbs"
+          - "<gray>Rarity: <aqua>Rare"
+        weight: 2
         amount: 1
 
   epic_fish:
     base_chance: 1
     selection_priority: 3
     loot:
-      # --- Swordfish ---
       - type: item
         material: tropical_fish
         display_name: "<light_purple>Swordfish"
         custom_model_data: 1008
         lore:
           - "<gray>An aggressive predator of the deep."
-          - "<dark_gray>⚖ Weight: <white>50 - 100 lbs"
+          - "<dark_gray>Weight: <white>54 lbs"
           - "<gray>Rarity: <light_purple>Epic"
-        weight: 50
+        weight: 40
         amount: 1
       - type: item
         material: tropical_fish
@@ -174,7 +315,7 @@ pools:
         custom_model_data: 1008
         lore:
           - "<gray>An aggressive predator of the deep."
-          - "<dark_gray>⚖ Weight: <white>101 - 200 lbs"
+          - "<dark_gray>Weight: <white>85 lbs"
           - "<gray>Rarity: <light_purple>Epic"
         weight: 30
         amount: 1
@@ -184,20 +325,39 @@ pools:
         custom_model_data: 1008
         lore:
           - "<gray>An aggressive predator of the deep."
-          - "<dark_gray>⚖ Weight: <white>201 - 400 lbs"
+          - "<dark_gray>Weight: <white>130 lbs"
+          - "<gray>Rarity: <light_purple>Epic"
+        weight: 20
+        amount: 1
+      - type: item
+        material: tropical_fish
+        display_name: "<light_purple>Swordfish"
+        custom_model_data: 1008
+        lore:
+          - "<gray>An aggressive predator of the deep."
+          - "<dark_gray>Weight: <white>195 lbs"
           - "<gray>Rarity: <light_purple>Epic"
         weight: 10
         amount: 1
-      # --- Atlantic Salmon ---
       - type: item
-        material: salmon
-        display_name: "<light_purple>Atlantic Salmon"
-        custom_model_data: 1005
+        material: tropical_fish
+        display_name: "<light_purple>Swordfish"
+        custom_model_data: 1008
         lore:
-          - "<gray>A prized catch from cold, deep waters."
-          - "<dark_gray>⚖ Weight: <white>8 - 15 lbs"
+          - "<gray>An aggressive predator of the deep."
+          - "<dark_gray>Weight: <white>280 lbs"
           - "<gray>Rarity: <light_purple>Epic"
-        weight: 50
+        weight: 5
+        amount: 1
+      - type: item
+        material: tropical_fish
+        display_name: "<light_purple>Swordfish"
+        custom_model_data: 1008
+        lore:
+          - "<gray>An aggressive predator of the deep."
+          - "<dark_gray>Weight: <white>388 lbs"
+          - "<gray>Rarity: <light_purple>Epic"
+        weight: 2
         amount: 1
       - type: item
         material: salmon
@@ -205,7 +365,17 @@ pools:
         custom_model_data: 1005
         lore:
           - "<gray>A prized catch from cold, deep waters."
-          - "<dark_gray>⚖ Weight: <white>16 - 25 lbs"
+          - "<dark_gray>Weight: <white>8.5 lbs"
+          - "<gray>Rarity: <light_purple>Epic"
+        weight: 40
+        amount: 1
+      - type: item
+        material: salmon
+        display_name: "<light_purple>Atlantic Salmon"
+        custom_model_data: 1005
+        lore:
+          - "<gray>A prized catch from cold, deep waters."
+          - "<dark_gray>Weight: <white>12.0 lbs"
           - "<gray>Rarity: <light_purple>Epic"
         weight: 30
         amount: 1
@@ -215,16 +385,45 @@ pools:
         custom_model_data: 1005
         lore:
           - "<gray>A prized catch from cold, deep waters."
-          - "<dark_gray>⚖ Weight: <white>26 - 40 lbs"
+          - "<dark_gray>Weight: <white>17.5 lbs"
+          - "<gray>Rarity: <light_purple>Epic"
+        weight: 20
+        amount: 1
+      - type: item
+        material: salmon
+        display_name: "<light_purple>Atlantic Salmon"
+        custom_model_data: 1005
+        lore:
+          - "<gray>A prized catch from cold, deep waters."
+          - "<dark_gray>Weight: <white>24.0 lbs"
           - "<gray>Rarity: <light_purple>Epic"
         weight: 10
+        amount: 1
+      - type: item
+        material: salmon
+        display_name: "<light_purple>Atlantic Salmon"
+        custom_model_data: 1005
+        lore:
+          - "<gray>A prized catch from cold, deep waters."
+          - "<dark_gray>Weight: <white>32.5 lbs"
+          - "<gray>Rarity: <light_purple>Epic"
+        weight: 5
+        amount: 1
+      - type: item
+        material: salmon
+        display_name: "<light_purple>Atlantic Salmon"
+        custom_model_data: 1005
+        lore:
+          - "<gray>A prized catch from cold, deep waters."
+          - "<dark_gray>Weight: <white>39.0 lbs"
+          - "<gray>Rarity: <light_purple>Epic"
+        weight: 2
         amount: 1
 
   legendary_fish:
     base_chance: 0.2
     selection_priority: 4
     loot:
-      # --- Golden Koi ---
       - type: item
         material: tropical_fish
         display_name: "<gold><bold>Golden Koi"
@@ -232,9 +431,9 @@ pools:
         lore:
           - "<gray>An ancient and mystical fish."
           - "<gray>Said to bring great fortune."
-          - "<dark_gray>⚖ Weight: <white>15 - 25 lbs"
+          - "<dark_gray>Weight: <white>16 lbs"
           - "<gray>Rarity: <gold>Legendary"
-        weight: 50
+        weight: 40
         amount: 1
       - type: item
         material: tropical_fish
@@ -243,7 +442,7 @@ pools:
         lore:
           - "<gray>An ancient and mystical fish."
           - "<gray>Said to bring great fortune."
-          - "<dark_gray>⚖ Weight: <white>26 - 35 lbs"
+          - "<dark_gray>Weight: <white>22 lbs"
           - "<gray>Rarity: <gold>Legendary"
         weight: 30
         amount: 1
@@ -254,26 +453,58 @@ pools:
         lore:
           - "<gray>An ancient and mystical fish."
           - "<gray>Said to bring great fortune."
-          - "<dark_gray>⚖ Weight: <white>36 - 50 lbs"
+          - "<dark_gray>Weight: <white>29 lbs"
+          - "<gray>Rarity: <gold>Legendary"
+        weight: 20
+        amount: 1
+      - type: item
+        material: tropical_fish
+        display_name: "<gold><bold>Golden Koi"
+        custom_model_data: 1007
+        lore:
+          - "<gray>An ancient and mystical fish."
+          - "<gray>Said to bring great fortune."
+          - "<dark_gray>Weight: <white>36 lbs"
           - "<gray>Rarity: <gold>Legendary"
         weight: 10
+        amount: 1
+      - type: item
+        material: tropical_fish
+        display_name: "<gold><bold>Golden Koi"
+        custom_model_data: 1007
+        lore:
+          - "<gray>An ancient and mystical fish."
+          - "<gray>Said to bring great fortune."
+          - "<dark_gray>Weight: <white>44 lbs"
+          - "<gray>Rarity: <gold>Legendary"
+        weight: 5
+        amount: 1
+      - type: item
+        material: tropical_fish
+        display_name: "<gold><bold>Golden Koi"
+        custom_model_data: 1007
+        lore:
+          - "<gray>An ancient and mystical fish."
+          - "<gray>Said to bring great fortune."
+          - "<dark_gray>Weight: <white>49 lbs"
+          - "<gray>Rarity: <gold>Legendary"
+        weight: 2
         amount: 1
 
   endangered_fish:
     base_chance: 0.05
     selection_priority: 5
     loot:
-      # --- Sturgeon ---
       - type: item
         material: tropical_fish
         display_name: "<red>Sturgeon"
         custom_model_data: 1009
         lore:
           - "<gray>A prehistoric giant, rarely seen."
-          - "<dark_gray>⚖ Weight: <white>10 - 30 lbs"
-          - "<red>⚠ Endangered Species"
+          - "<dark_gray>Weight: <white>12 lbs"
+          - "<red>Endangered Species"
           - "<gray>Rarity: <red>Endangered"
-        weight: 50
+        weight: 40
         amount: 1
       - type: item
         material: tropical_fish
@@ -281,8 +512,8 @@ pools:
         custom_model_data: 1009
         lore:
           - "<gray>A prehistoric giant, rarely seen."
-          - "<dark_gray>⚖ Weight: <white>31 - 55 lbs"
-          - "<red>⚠ Endangered Species"
+          - "<dark_gray>Weight: <white>25 lbs"
+          - "<red>Endangered Species"
           - "<gray>Rarity: <red>Endangered"
         weight: 30
         amount: 1
@@ -292,15 +523,45 @@ pools:
         custom_model_data: 1009
         lore:
           - "<gray>A prehistoric giant, rarely seen."
-          - "<dark_gray>⚖ Weight: <white>56 - 80 lbs"
-          - "<red>⚠ Endangered Species"
+          - "<dark_gray>Weight: <white>42 lbs"
+          - "<red>Endangered Species"
           - "<gray>Rarity: <red>Endangered"
         weight: 15
         amount: 1
+      - type: item
+        material: tropical_fish
+        display_name: "<red>Sturgeon"
+        custom_model_data: 1009
+        lore:
+          - "<gray>A prehistoric giant, rarely seen."
+          - "<dark_gray>Weight: <white>58 lbs"
+          - "<red>Endangered Species"
+          - "<gray>Rarity: <red>Endangered"
+        weight: 8
+        amount: 1
+      - type: item
+        material: tropical_fish
+        display_name: "<red>Sturgeon"
+        custom_model_data: 1009
+        lore:
+          - "<gray>A prehistoric giant, rarely seen."
+          - "<dark_gray>Weight: <white>71 lbs"
+          - "<red>Endangered Species"
+          - "<gray>Rarity: <red>Endangered"
+        weight: 4
+        amount: 1
+      - type: item
+        material: tropical_fish
+        display_name: "<red>Sturgeon"
+        custom_model_data: 1009
+        lore:
+          - "<gray>A prehistoric giant, rarely seen."
+          - "<dark_gray>Weight: <white>79 lbs"
+          - "<red>Endangered Species"
+          - "<gray>Rarity: <red>Endangered"
+        weight: 2
+        amount: 1
 
-  # -----------------------------------------------
-  # Material Reward Pools (non-fish drops)
-  # -----------------------------------------------
   rare:
     base_chance: 2
     selection_priority: 1
@@ -365,48 +626,6 @@ pools:
         material: slime_block
         weight: 7
         amount: 1-2
-      - type: item
-        material: tipped_arrow
-        weight: 1
-        amount: 2-5
-        potion_data:
-          type: weakness
-      - type: item
-        material: tipped_arrow
-        weight: 1
-        amount: 2-5
-        potion_data:
-          type: slowness
-      - type: item
-        material: tipped_arrow
-        weight: 1
-        amount: 2-5
-        potion_data:
-          type: turtle_master
-      - type: item
-        material: tipped_arrow
-        weight: 1
-        amount: 2-5
-        potion_data:
-          type: water_breathing
-      - type: item
-        material: tipped_arrow
-        weight: 1
-        amount: 2-5
-        potion_data:
-          type: poison
-      - type: item
-        material: tipped_arrow
-        weight: 1
-        amount: 2-5
-        potion_data:
-          type: instant_damage
-      - type: item
-        material: tipped_arrow
-        weight: 1
-        amount: 2-5
-        potion_data:
-          type: regen
       - type: item
         material: spectral_arrow
         weight: 2
