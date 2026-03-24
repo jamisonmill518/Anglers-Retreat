@@ -1,2 +1,10 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Binary files - never convert line endings
+*.zip binary
+*.jar binary
+*.png binary
+*.nbt binary
+*.db binary
+*.mv.db binary
